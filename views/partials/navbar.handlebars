@@ -1,0 +1,12 @@
+<nav class="navbar">
+    <div class="nav-container">
+        <h1 class="logo">Skyt</h1>
+        <ul class="nav-menu">
+            {{#each pages}}
+            <li>
+                <a href="{{url}}" class="nav-link {{#if active}}active{{/if}}">{{label}}</a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</nav>

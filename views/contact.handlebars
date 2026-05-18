@@ -1,0 +1,98 @@
+{{> navbar pages=pages}}
+
+<main class="container">
+    <section class="hero">
+        <h2>Nous Contacter</h2>
+        <p>Nous serions heureux de discuter de vos projets avec vous</p>
+    </section>
+
+    <section class="content">
+        <div class="contact-section">
+            <div class="contact-form">
+                <h3>Formulaire de Contact</h3>
+                <form method="POST" action="#">
+                    <div class="form-group">
+                        <label for="nom">Nom complet :</label>
+                        <input type="text" id="nom" name="nom" placeholder="Jean Dupont" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresse e-mail :</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telephone">Téléphone :</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="+33 1 23 45 67 89">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sujet">Sujet :</label>
+                        <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Décrivez votre demande..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Envoyer le message</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h3>Nos Coordonnées</h3>
+
+                <div class="info-item">
+                    <h4> Adresse</h4>
+                    <p>
+                        Skyt<br>
+                        123 Rue de l'Innovation<br>
+                        75001 Paris<br>
+                        France
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <h4> Téléphone</h4>
+                    <p>
+                        Tél : +33 (0)1 23 45 67 89<br>
+                        Fax : +33 (0)1 23 45 67 90
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <h4> Email</h4>
+                    <p>
+                        Général : contact@monentreprise.fr<br>
+                        Support : support@monentreprise.fr<br>
+                        Ventes : ventes@monentreprise.fr
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <h4> Heures d'Ouverture</h4>
+                    <p>
+                        Lundi - Vendredi : 09:00 - 17:00<br>
+                        Samedi - Dimanche : Fermé
+                    </p>
+                </div>
+
+                <div class="info-item">
+                    <h4> Réseaux Sociaux</h4>
+                    <p>
+                        <a href="#" class="social-link">Facebook</a> |
+                        <a href="#" class="social-link">LinkedIn</a> |
+                        <a href="#" class="social-link">Twitter</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Skyt. Tous droits réservés.</p>
+    <p>Heures d'ouverture : Lundi - Vendredi, 09:00 - 17:00</p>
+</footer>
